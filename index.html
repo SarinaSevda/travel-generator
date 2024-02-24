@@ -12,17 +12,20 @@
     <div class="container">
       <h1>AI travel generator</h1>
       <main>
-        <form id="travel-generator-form">
-          <input
-            type="text"
-            placeholder="Enter your travel destination here"
-            autofocus
-            class="text-input"
-            id="user-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="ai-answer" id="ai-answer"></div>
+        <div class="form-container">
+          <form id="travel-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a travel destination here"
+              autofocus
+              class="text-input"
+              id="user-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. Nairobi, Casablanca, Lagos</div>
+        </div>
+        <div class="ai-answer hidden" id="ai-answer"></div>
       </main>
 
       <footer>
